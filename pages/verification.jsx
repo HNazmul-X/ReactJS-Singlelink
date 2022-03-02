@@ -1,56 +1,56 @@
 function Verification() {
   return (
     <>
-      <div class="osahan-signup login-page">
+      <div className="osahan-signup login-page">
         <video loop  autoPlay={true}  muted id="vid"  playsInline>
             <source src="/img/bg.mp4" type="video/mp4" />
             <source src="/img/bg.mp4" type="video/ogg" />
             Your browser does not support the video tag.
          </video>
-        <div class="d-flex align-items-center justify-content-center flex-column vh-100">
-          <div class="px-5 col-md-6 ml-auto">
-            <div class="px-5 col-10 mx-auto mb-4">
-              <h2 class="mb-3">Verify your phone number</h2>
-              <h6 class="text-black-50">Enter your OTP code here</h6>
+        <div className="d-flex align-items-center justify-content-center flex-column vh-100">
+          <div className="px-5 col-md-6 ml-auto">
+            <div className="px-5 col-10 mx-auto mb-4">
+              <h2 className="mb-3">Verify your phone number</h2>
+              <h6 className="text-black-50">Enter your OTP code here</h6>
               <form action="home.html">
-                <div class="row my-5 mx-0 otp">
-                  <div class="col pr-1 pl-0">
+                <div className="row my-5 mx-0 otp">
+                  <div className="col pr-1 pl-0">
                     <input
                       type="text"
                       value="4"
-                      class="form-control form-control-lg"
+                      className="form-control form-control-lg"
                     />
                   </div>
-                  <div class="col px-2">
+                  <div className="col px-2">
                     <input
                       type="text"
                       value="0"
-                      class="form-control form-control-lg"
+                      className="form-control form-control-lg"
                     />
                   </div>
-                  <div class="col px-2">
+                  <div className="col px-2">
                     <input
                       type="text"
                       value="8"
-                      class="form-control form-control-lg"
+                      className="form-control form-control-lg"
                     />
                   </div>
-                  <div class="col pl-1 pr-0">
+                  <div className="col pl-1 pr-0">
                     <input
                       type="text"
                       value="0"
-                      class="form-control form-control-lg"
+                      className="form-control form-control-lg"
                     />
                   </div>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block">
+                <button className="btn btn-lg btn-primary btn-block">
                   Verify Now
                 </button>
               </form>
             </div>
-            <div class="new-acc d-flex align-items-center justify-content-center">
+            <div className="new-acc d-flex align-items-center justify-content-center">
               <a href="login.html">
-                <p class="text-center m-0">Already an account? Sign in</p>
+                <p className="text-center m-0">Already an account? Sign in</p>
               </a>
             </div>
           </div>
