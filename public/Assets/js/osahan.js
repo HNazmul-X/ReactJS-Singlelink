@@ -4,6 +4,8 @@ Author: Askbootstrap
 Author URI: https://themeforest.net/user/askbootstrap
 Version: 1.0
 */
+
+
 (function($) {
     "use strict"; // Start of use strict
 
@@ -65,11 +67,10 @@ Version: 1.0
     });
 
     // Trending slider
-
     $('.trending-slider').slick({
         //   centerMode: true,
         //   centerPadding: '30px',
-        slidesToShow: 3,
+        slidesToShow: 3,        
         arrows: true,
         responsive: [{
                 breakpoint: 768,

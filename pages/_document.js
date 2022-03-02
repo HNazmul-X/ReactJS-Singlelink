@@ -16,22 +16,22 @@ class MyDocument extends Document {
     return initialProps;
   }
 
-  render() {
-    return (
-      <Html lang="en" className="">
-        <Head />
-        <body className="fixed-bottom-bar">
-          <Main />
-          <script src="/Assets/js/jquery.min.js"></script>
-          <script src="/Assets/js/bootstrap.bundle.min.js"></script>
-          <script src="/Assets/js/slick.min.js" ></script>
-          <script src="/Assets/js/hc-offcanvas-nav.js"></script>
-          <script src="/Assets/js/osahan.js"></script>
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
+    render() {
+        return (
+            <Html lang="en" className="">
+                <Head />
+                <body className="fixed-bottom-bar">
+                    <Main />
+                    <script src="/Assets/js/jquery.min.js"></script>
+                    <script src="/Assets/js/bootstrap.bundle.min.js"></script>
+                    {/* <script src="/Assets/js/slick.min.js" ></script> */}
+                    <script src="/Assets/js/hc-offcanvas-nav.js"></script>
+                    <script src="/Assets/js/osahan.js"></script>
+                    <NextScript />
+                </body>
+            </Html>
+        );
+    }
 }
 
 export default MyDocument;
