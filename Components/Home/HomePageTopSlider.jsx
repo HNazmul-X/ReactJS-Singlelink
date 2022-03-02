@@ -9,7 +9,7 @@ function HomePageTopSlider() {
             <Slider {...homePageBanner1Setting}>
               {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map(
                 (data, index) => (
-                  <div className="cat-item px-1 py-3">
+                  <div key={index} className="cat-item px-1 py-3">
                     <a
                       className="bg-white rounded d-block p-2 text-center shadow-sm"
                       href="trending.html"

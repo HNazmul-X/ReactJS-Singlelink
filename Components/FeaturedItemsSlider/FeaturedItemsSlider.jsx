@@ -1,3 +1,4 @@
+;
 import React from "react";
 
 const FeaturedItemsSlider = () => {
@@ -10,7 +11,7 @@ const FeaturedItemsSlider = () => {
           <div className="trending-slider rounded">
             <div className="osahan-slider-item">
               <div className="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
-                <div className="list-card-image">
+                <div className="list-card-img">
                   <a href="checkout.html">
                     <img
                       alt="#"
@@ -23,7 +24,7 @@ const FeaturedItemsSlider = () => {
                   <div className="list-card-body">
                     <h6 className="mb-1">
                       <a href="checkout.html" className="text-black">
-                        Famous Dave's Bar-B-Que
+                        Famous Dave&apos;s Bar-B-Que
                       </a>
                     </h6>
                     <p className="text-gray mb-3">
@@ -39,7 +40,7 @@ const FeaturedItemsSlider = () => {
             </div>
             <div className="osahan-slider-item">
               <div className="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
-                <div className="list-card-image">
+                <div className="list-card-img">
                   <a href="checkout.html">
                     <img
                       alt="#"
@@ -68,7 +69,7 @@ const FeaturedItemsSlider = () => {
             </div>
             <div className="osahan-slider-item">
               <div className="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
-                <div className="list-card-image">
+                <div className="list-card-img">
                   <a href="checkout.html">
                     <img
                       alt="#"
@@ -97,7 +98,7 @@ const FeaturedItemsSlider = () => {
             </div>
             <div className="osahan-slider-item">
               <div className="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
-                <div className="list-card-image">
+                <div className="list-card-img">
                   <a href="checkout.html">
                     <img
                       alt="#"

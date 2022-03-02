@@ -1,6 +1,6 @@
 css_dir = "."
 sass_dir = "."
-images_dir = "."
+imgs_dir = "."
 fonts_dir = "fonts"
 relative_assets = true
 

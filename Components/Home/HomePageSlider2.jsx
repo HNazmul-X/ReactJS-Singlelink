@@ -1,3 +1,4 @@
+;
 import Slider from "react-slick";
 import { homePagSlider2Setting } from "../../Data/HomePageData";
 

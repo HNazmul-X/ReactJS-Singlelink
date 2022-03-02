@@ -21,9 +21,9 @@ $slick-opacity-default: 0.75 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;
 
-@function slick-image-url($url) {
-    @if function-exists(image-url) {
-        @return image-url($url);
+@function slick-img-url($url) {
+    @if function-exists(img-url) {
+        @return img-url($url);
     }
     @else {
         @return url($slick-loader-path + $url);
@@ -43,7 +43,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-list {
     .slick-loading & {
-        background: #fff slick-image-url("ajax-loader.gif") center center no-repeat;
+        background: #fff slick-img-url("ajax-loader.gif") center center no-repeat;
     }
 }
 
