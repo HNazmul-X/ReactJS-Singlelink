@@ -5,11 +5,11 @@ import "../styles/global/theme_custom.css"
 import "../styles/global/feather.css"
 
 function MyApp({ Component, pageProps }) {
-  
+
   return (
-      <Layout>
-          <Component {...pageProps} />
-      </Layout>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
 
