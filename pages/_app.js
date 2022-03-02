@@ -7,11 +7,11 @@ import "../styles/global/slick/slick.min.css"
 import "../styles/global/slick/slick-theme.min.css"
 
 function MyApp({ Component, pageProps }) {
-  
+
   return (
-      <Layout>
-          <Component {...pageProps} />
-      </Layout>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
 
