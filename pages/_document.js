@@ -24,7 +24,7 @@ class MyDocument extends Document {
                     <Main />
                     <script src="/Assets/js/jquery.min.js"></script>
                     <script src="/Assets/js/bootstrap.bundle.min.js"></script>
-                    <script src="/Assets/js/slick.min.js" ></script>
+                    {/* <script src="/Assets/js/slick.min.js" ></script> */}
                     <script src="/Assets/js/hc-offcanvas-nav.js"></script>
                     <script src="/Assets/js/osahan.js"></script>
                     <NextScript />
